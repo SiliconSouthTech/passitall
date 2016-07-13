@@ -1,0 +1,216 @@
+/* 
+Table of contents
+===========================================
+- General Style
+- Utility Classes
+- Button Style
+- Form Elements
+- Page Header
+- Breadcrumb
+- Tab
+- Pagination
+- Custom Animation
+- Customize Owl Carousel
+===========================================
+*/
+
+/*
+------------------------------------
+- General Style
+------------------------------------
+*/
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+*:focus {
+    outline: 0;
+}
+html {
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	letter-spacing: 0px;
+	color: #888;
+	line-height: 30px;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+button, input, textarea {
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px;
+}
+/*
+------------------------------------
+- Utility Classes
+------------------------------------
+*/
+.pn {
+	padding: 0px !important;
+}
+.content-area {
+	width: 100%;
+	height: auto;
+}
+.inner-padding { /* Internal Section Padding */
+	padding: 80px 0px;
+}
+.separetor {
+	width: 80px;
+	height: 1px;
+	background: #00bff3;
+	margin: 25px auto;
+}
+/*
+------------------------------------
+- Button Style
+------------------------------------
+*/
+.btn {
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-o-border-radius: 25px;
+	-ms-border-radius: 25px;
+	border-radius: 25px;
+	height: 50px;
+	color: #111 !important;
+	line-height: 48px;
+	padding: 0px 30px;
+	margin-right: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.btn-outline {
+	border: 1px solid #fff;
+	background: none;
+	color: #fff !important;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.btn-outline:hover {
+	background: #00bff3;
+	color: #fff !important;
+	border: 1px solid #00bff3;
+}
+.btn-outline-2 {
+	border: 1px solid #00bff3;
+	background: none;
+	color: #00bff3 !important;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.btn-outline-2:hover {
+	background: #00707b;
+	color: #fff !important;
+	border: 1px solid #00707b !important;
+}
+/*
+------------------------------------
+- Form Elements
+------------------------------------
+*/
+.form-control {
+	height: 50px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-ms-border-radius: 25px;
+	-o-border-radius: 25px;
+	border-radius: 25px;\
+	border: 1px solid #00bff3 !important;
+}
+
+
+/*
+------------------------------------
+- Page Header
+------------------------------------
+*/
+
+/*
+------------------------------------
+- Bread Crumb
+------------------------------------
+*/
+
+/*
+------------------------------------
+- Pagination
+------------------------------------
+*/
+
+/*
+------------------------------------
+- Tab
+------------------------------------
+*/
+
+/* 
+---------------------------------
+- Custom Css Animation Section
+---------------------------------
+*/
+.way{
+  opacity: 0;
+}
+.way.animated{
+    opacity: 1;
+}
+
+/* 
+---------------------------------
+- Customize Owl Carousel
+---------------------------------
+*/
+.owl-carousel .owl-item img {
+	width: auto !important;
+	max-width: 100% !important;
+	margin: auto !important;
+}
+.owl-dots {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+}
+.owl-dot {
+	background: rgba(0,191,243,0.4);
+	width: 12px;
+	height: 12px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 10px;
+}
+.owl-dot.active {
+	background: rgba(0,191,243,1);
+	width: 12px;
+	height: 12px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}

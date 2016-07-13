@@ -1,0 +1,198 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  	/* Main Menu Section */
+    .topbar-area .navbar .navbar-brand {
+    	margin-right: 40px;
+    }
+    /* Hero Section */
+    .hero-lead {
+    	font-size: 90px;
+    }
+    /* Demo Video Section */
+    .demo-video-player {
+    	padding: 90px 170px;
+    }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width:991px) { 
+	/* Main Menu Section */
+	.navbar-header {
+		float: none;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.topbar-area .navbar .navbar-brand {
+		width: 100%;
+		text-align: center;
+	}
+	.navbar-brand > img {
+		display: inline-block;
+	}
+	/* Hero Section */
+	.hero-lead {
+		font-size: 60px;
+	}
+	.hero-sub-lead {
+		font-size: 26px;
+		margin-bottom: 30px;
+	}
+	/* Demo Video Section */
+	.demo-video-screen {
+		background-image: none;
+		height: auto;
+	}
+	.demo-video-player {
+		padding: 0px;
+	}
+	/* Testimonial Section */
+	.client-name {
+		min-width: 200px;
+	}
+
+	/* Pricing Table Section */
+	.pricing-table {
+		margin-bottom: 30px;
+	}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+	/* General */
+	.btn {
+		padding: 0px 20px;
+	}
+	.inner-padding {
+		padding: 40px 0px;
+	}
+	.push-down {
+		padding-top: 0px;
+	}
+	.section-desc {
+		margin-bottom: 50px;
+	}
+	.section-title-3 {
+		margin-bottom: 50px;
+	}
+	/* Main Menu Section */
+	.topbar-area .navbar {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	} 
+	.topbar-area .navbar .navbar-brand {
+		margin-right: 0px;
+	}
+	.topbar-area .navbar-toggle,
+	.topbar-area .navbar-toggle:hover {
+		background: none;
+		margin-top: 20px;
+		border: 0px;
+	}
+	.topbar-area .navbar-default .navbar-collapse {
+		border: 0px;
+		background: rgba(0,112,123, 0.8);
+		margin-top: 10px;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background: #fff;
+	}
+	/* Hero Section */
+	.hero-area {
+		height: auto !important;
+	}
+	.hero-right {
+		text-align: center;
+		padding-top: 0px;
+		min-height: 550px !important;
+	}
+	.hero-lead {
+		font-size: 48px;
+	}
+	.hero-sub-lead {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	.hero-social {
+		margin: 20px 0px 20px 0px;
+	}
+	/* Creative Feature Section */
+	.feature-item {
+		margin-bottom: 30px;
+	}
+
+	/* App Download Section */
+	.app-download-area {
+		padding: 40px 0px;
+	}
+	.app-download-intro-inner {
+		text-align: center;
+	}
+	/* Testimonial Section */
+	.testimonial-carousel {
+		margin-bottom: 0px;
+	}
+	.testimonial-carousel .owl-item.center .client-msg {
+		left: 0%;
+		width: 100%;
+	}
+	.testimonial-carousel .owl-dots {
+		margin-top: 50px;
+	}
+	blockquote {
+		padding-left: 0px;
+		font-size: 16px;
+	}
+	blockquote:after {
+		left: 38%;
+	}
+	.testimonial-carousel .owl-item.center .client-msg {
+		margin-left: 0%;
+		margin-bottom: 30px;
+	}
+	/* Screenshot Section */
+	.bee3D--effect__coverflow .bee3D--after,
+	.bee3D--nav__prev, 
+	.bee3D--nav__next {
+		display: none;
+	}
+	.bee3D--effect__coverflow .bee3D--inner {
+	    text-align: center;
+	}
+	/* Team, Pricing, Footer Section */
+	.team-member,
+	.pricing-table,
+	.footer-widget {
+		margin-bottom: 30px;
+	}
+	/* Demo Video Section */
+	.demo-video-screen {
+		background-image: none;
+		height: auto;
+	}
+	.demo-video-player {
+		padding: 0;
+	}
+	/* Call to Action */
+	.call-to-action {
+		margin-top: 0px !important;
+		text-align: center;
+	}
+	.call-to-action .cta-content h2,
+	.call-to-action .cta-content p {
+		margin-bottom: 10px;
+	}
+	/* Footer Area */
+	.footer-area {
+		padding-bottom: 0px;
+	}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 481px) and (max-width: 767px) { 
+	
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 240px) and (max-width: 480px) { 
+	.btn {
+		padding: 0px 20px;
+		margin: 0px;
+	}
+}	
